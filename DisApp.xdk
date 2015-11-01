@@ -6,22 +6,14 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "8dd7026c-077d-4a47-a700-0d0b50957a7e",
-      "lastModifiedDate": 1446186146434,
+      "lastModifiedDate": 1446306822764,
       "creationDate": 1446126481226
     },
     "XDK-app-designer": "true",
     "sourceDirectory": "www",
     "startFile": "index.html",
     "projectFiles": {},
-    "projectDirectories": {
-      "xdk/services/iodocs": {
-        "settings": {
-          "project": {
-            "XDK-generated": "true"
-          }
-        }
-      }
-    },
+    "projectDirectories": {},
     "libraries": [],
     "serviceMethods": [],
     "cordovaPluginsDirectory": "plugins",

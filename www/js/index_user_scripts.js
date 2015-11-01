@@ -23,8 +23,13 @@
     {
          /*global activate_page */
          var cid = document.getElementById("txtcid").value;
+        var pwd = document.getElementById("txtpwd").value;
         if(cid === '' || cid === null){
             window.alert("Please Enter Customer ID.");
+            return false;
+        }
+        if(pwd === '' || pwd === null){
+            window.alert("Please Enter Password.");
             return false;
         }
         window.location.href='Det.html';        

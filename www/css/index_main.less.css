@@ -387,3 +387,52 @@ label.narrow-control:empty + .wide-control {
     height: 250px;
   }
 }
+.left-receptacle {
+  float: left;
+}
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@media all {
+  .inptwidth > .narrow-control {
+    text-align: left;
+  }
+}
+.widget.ui-checkbox,
+.widget.ui-radio,
+.widget.ui-slider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ui-flipswitch .ui-btn.ui-flipswitch-on {
+  text-indent: -2.6em;
+}
+.ui-flipswitch .ui-flipswitch-off {
+  text-indent: 1em;
+}
+@media all {
+  .sldwdth > .narrow-control {
+    text-align: left;
+  }
+}
+@media all {
+  .agn > .ui-slider-switch {
+    float: right;
+  }
+}
+@media all {
+  .max-width > .narrow-control {
+    width: 200px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

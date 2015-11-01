@@ -8,12 +8,6 @@
  function register_event_handlers()
  {
      
-     //$(document).ready(function(){
-         //$("#lst").append('<li class="widget uib_w_6 ui-li-static ui-body-inherit ui-first-child" data-uib="jquery_mobile/listitem" data-ver="0"><span>New Ticket</span></li>');
-        // $("#lst").append('<li class="widget uib_w_7 ui-li-static ui-body-inherit ui-last-child" data-uib="jquery_mobile/listitem" data-ver="0"><span>Existing Ticket</span></li>');
-     //});
-    
-    
      /* listitem  Listitem */
     $(document).on("click", ".uib_w_3", function(evt)
     {
@@ -23,6 +17,28 @@
     
         /* button  #btncreatetkt */
     $(document).on("click", "#btncreatetkt", function(evt)
+    {
+         /*global activate_page */         
+        window.location.href='Map.html';
+    });
+    
+        /* button  #btnext */
+    $(document).on("click", "#btnext", function(evt)
+    {
+         /*global activate_page */
+         //activate_page("#mainpage"); 
+        navigator.app.exitApp();
+    });
+    
+        /* button  #btncrttkt */
+    $(document).on("click", "#btncrttkt", function(evt)
+    {
+         /*global activate_page */
+          window.location.href='Map.html';
+    });
+    
+        /* button  #btnpcd */
+    $(document).on("click", "#btnpcd", function(evt)
     {
          /*global activate_page */
          //activate_page("#mainpage"); 
