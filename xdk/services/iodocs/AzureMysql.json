@@ -1,0 +1,31 @@
+{
+"endpoints": [
+  {
+    "name": "Login",
+    "dashboardUrl": "http://localhost:5104/api/Login",
+    "methods": [
+            {
+        "MethodName": "default",
+        "Synopsis": "Grabs information from the A1 data set for a specific user",
+        "parameters": [
+          {
+            "Name": "cid",
+            "Required": "Y",
+            "Default": "",
+            "Type": "string",
+            "Description": "CustomerId."
+          },
+          {
+            "Name": "pwd",
+            "Required": "Y",
+            "Default": "",
+            "Type": "string",
+            "Description": "Password"
+          }
+        ]
+      }
+           
+    ]
+  }
+]
+}

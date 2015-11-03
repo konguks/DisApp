@@ -1,0 +1,7 @@
+{
+  "AzureMysql": {
+    "name": "TestMySQL",
+    "description": "First Service",
+    "dashboardUrl": "http://localhost:5104/"    
+  }
+}
