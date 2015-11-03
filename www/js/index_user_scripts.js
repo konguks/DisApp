@@ -32,39 +32,7 @@
             window.alert("Please Enter Password.");
             return false;
         }
-        
-        //var uri = 'http://localhost:5104/api/Login/Validate?'+'cid='+cid+'&pwd='+pwd;
-        
-        /*$.getJSON(uri).done(function(data){
-            window.alert(data);
-        });*/
-        
-          /* $.ajax({
-        type: "GET",
-        url: uri,        
-        async:true,
-        dataType : 'jsonp',   //you may use jsonp for cross origin request
-        crossDomain:true,
-        success: function(data) {
-            window.alert(data);
-        }
-    });*/
-        //$.getScript("intelxdk.js",function(){});
-        intel.xdk.services.ValidateLogin({"cid":cid,"pwd":pwd}).then(function (response) {
-            //var res =JSON.stringify(response);
-            
-            if(response.Response.resp === 'Success'){
-             window.location.href='Det.html'; 
-                return false;
-            }
-            else{
-                alert(response.Response.resp);
-            }
-         
-        });                                      
-        
-        
-        //window.location.href=uri;
+        window.location.href='Det.html';        
         //activate_page("#Details");
         //document.getElementById("txtcid").value='clicked';      
     });
